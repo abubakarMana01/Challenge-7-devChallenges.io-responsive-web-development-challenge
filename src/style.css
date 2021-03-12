@@ -541,6 +541,7 @@ footer > p a {
 		background: url(./img/heroimage.jpg) center/cover no-repeat;
 		height: 130px;
 		border-radius: 25px;
+		margin: 2rem 0;
 	}
 	section.top.second h1 {
 		width: 70%;
