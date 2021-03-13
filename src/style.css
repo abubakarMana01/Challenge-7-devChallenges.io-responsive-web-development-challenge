@@ -595,7 +595,7 @@ footer > p a {
 	}
 	#check:checked + ul.nav-list {
 		overflow-y: hidden;
-		transform: translateX(0);
+		transform: scale(1);
 	}
 
 	#check:checked ~ main nav .close {
@@ -614,7 +614,7 @@ footer > p a {
 		align-items: center;
 		justify-content: center;
 		transition: transform 500ms ease;
-		transform: translateX(100vw);
+		transform: scale(0);
 	}
 
 	.nav-list li {
