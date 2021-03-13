@@ -599,7 +599,7 @@ footer > p a {
 	}
 
 	#check:checked ~ main nav .close {
-		transform: translateX(0);
+		transform: scale(1);
 	}
 	ul.nav-list {
 		display: block;
@@ -883,6 +883,6 @@ footer > p a {
 		color: white;
 		z-index: 3;
 		transition: transform 500ms ease 200ms;
-		transform: translateX(100px);
+		transform: scale(0);
 	}
 }
