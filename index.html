@@ -285,5 +285,14 @@
 				- devChallenges.io
 			</p>
 		</footer>
+
+		<script>
+			const body = document.querySelector('body');
+			const check = document.getElementById('check');
+			check.addEventListener('click', () => {
+				if (check.checked == true) body.style.overflowY = 'hidden';
+				else body.style.overflowY = 'visible';
+			});
+		</script>
 	</body>
 </html>
